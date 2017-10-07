@@ -1,0 +1,26 @@
+// 初期の変数を読み込む
+@import "~bulma/sass/utilities/initial-variables"
+
+// 変数をアップデートしていく
+
+// Update blue
+$blue: #72d0eb
+// Add pink and its invert
+$pink: #ffb3b3
+$pink-invert: #fff
+// Add a serif family
+$family-serif: "Merriweather", "Georgia", serif
+
+// Use the new pink as the primary color
+$primary: $pink
+$primary-invert: $pink-invert
+// Use the existing orange as the danger color
+$danger: $orange
+// Use the new serif family
+$family-primary: $family-serif
+
+// Bulma を詠み込む
+@import "~bulma/bulma"
+
+// Buefy 特有の css も import
+@import "~buefy/src/scss/buefy"
